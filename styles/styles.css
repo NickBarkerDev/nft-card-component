@@ -33,14 +33,6 @@ li {
   list-style: none;
 }
 
-h1,
-p,
-ul,
-li {
-  margin: 0;
-  padding: 0;
-}
-
 /* set up default body styles */
 body {
   line-height: 1.5;
@@ -63,7 +55,6 @@ li {
 /* -------------- END RESET ----------------- */
 
 /* Flex Utility Class */
-
 .flex {
   display: flex;
 }
@@ -113,17 +104,14 @@ body {
     align-items: center;
 }
 
-.info-item img {
-    display: block;
-}
-
-
 #profile {
   width: 2rem;
   border-radius: 100%;
   border: 2px solid white;
 }
 
+
+/* Attribution code by Frontend Mentor */
 .attribution {
   font-size: 11px;
   text-align: center;
