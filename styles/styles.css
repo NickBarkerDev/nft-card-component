@@ -1,22 +1,129 @@
+/* /* -------------- BEGIN RESET ----------------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+p,
+img,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* set up default body styles */
 body {
-    font-family: 'Outfit', sans-serif;
-    background-color: hsl(217, 54%, 11%);
+  height: 100%;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a,
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+h1,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* set up default body styles */
+body {
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* make images easier to work with */
+img {
+    margin: 0;
+  max-width: 100%;
+  display: block;
+}
+
+a,
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+/* -------------- END RESET ----------------- */
+
+/* Flex Utility Class */
+
+.flex {
+  display: flex;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(217, 54%, 11%);
+  color: hsl(0, 0%, 100%);
+}
+
+.card {
+  background-color: hsl(216, 50%, 16%);
+  width: 20rem;
+  margin: auto;
+  margin-top: 5%;
+  padding: 1.5rem;
+  border-radius: 12px;
+}
+
+.card-content img {
+  object-fit: cover;
+  height: 50%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.txt-content {
+  color: hsl(215, 51%, 70%);
+}
+
+.txt-content h1 {
+  /* margin-top: 1rem; */
+  color: hsl(0, 0%, 100%);
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.description {
+  margin-top: 0.75rem;
+}
+
+.auction-info {
+  justify-content: space-between;
+}
+
+.info-item {
+    align-items: center;
+    height: 100%;
+}
+
+.info-item img {
+    display: block;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+#profile {
+  width: 2rem;
+  border-radius: 100%;
+  border: 2px solid white;
+}
 
 .attribution {
   font-size: 11px;
