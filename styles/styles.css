@@ -7,9 +7,7 @@
 
 h1,
 p,
-img,
-ul,
-li {
+img {
   margin: 0;
   padding: 0;
 }
@@ -27,29 +25,15 @@ img {
   display: block;
 }
 
-a,
-li {
+a {
   text-decoration: none;
-  list-style: none;
-}
-
-/* set up default body styles */
-body {
-  line-height: 1.5;
-  margin: 0;
 }
 
 /* make images easier to work with */
 img {
-    margin: 0;
+  margin: 0;
   max-width: 100%;
   display: block;
-}
-
-a,
-li {
-  text-decoration: none;
-  list-style: none;
 }
 
 /* -------------- END RESET ----------------- */
@@ -75,7 +59,6 @@ body {
 }
 
 .card-content img {
-  object-fit: cover;
   height: 50%;
   border-radius: 8px;
   margin-bottom: 1rem;
@@ -86,7 +69,6 @@ body {
 }
 
 .txt-content h1 {
-  /* margin-top: 1rem; */
   color: white;
   font-size: 1.4rem;
   font-weight: 600;
@@ -98,18 +80,39 @@ body {
 
 .auction-info {
   justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid hsl(215, 32%, 27%);
 }
 
-.info-item {
-    align-items: center;
+.auction-info img {
+  margin-top: 4px;
+  margin-bottom: 0;
+  margin-right: 0.5rem;
+}
+
+#price {
+  font-weight: 600;
+  color: hsl(178, 100%, 50%);
 }
 
 #profile {
   width: 2rem;
   border-radius: 100%;
   border: 2px solid white;
+  margin: 0 1rem 0 0;
 }
 
+.creator-info {
+  margin-top: 1rem;
+  align-items: center;
+}
+
+.creator-info span {
+  color: white;
+  font-weight: 400;
+}
 
 /* Attribution code by Frontend Mentor */
 .attribution {
