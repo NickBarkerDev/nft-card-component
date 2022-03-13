@@ -31,6 +31,14 @@ img {
 
 /* -------------- END RESET ----------------- */
 
+
+
+/* Custom Color Properties*/
+:root {
+    --pure-white: hsl(0, 0%, 100%);
+    --cyan: hsl(178, 100%, 50%);
+}
+
 /* Flex Utility Class */
 .flex {
   display: flex;
@@ -39,7 +47,7 @@ img {
 body {
   font-family: "Outfit", sans-serif;
   background-color: hsl(217, 54%, 11%);
-  color: hsl(0, 0%, 100%);
+  color: var(--pure-white);
 }
 
 .card {
@@ -62,7 +70,7 @@ body {
 }
 
 .txt-content h1 {
-  color: white;
+  color: var(--pure-white);
   font-size: 1.4rem;
   font-weight: 600;
 }
@@ -87,13 +95,13 @@ body {
 
 #price {
   font-weight: 600;
-  color: hsl(178, 100%, 50%);
+  color: var(--cyan);
 }
 
 #profile {
   width: 2rem;
   border-radius: 100%;
-  border: 2px solid white;
+  border: 2px solid var(--pure-white);
   margin: 0 1rem 0 0;
 }
 
@@ -103,7 +111,7 @@ body {
 }
 
 .creator-info span {
-  color: white;
+  color: var(--pure-white);
   font-weight: 400;
 }
 
