@@ -19,19 +19,12 @@ body {
   margin: 0;
 }
 
-/* make images easier to work with */
-img {
-  max-width: 100%;
-  display: block;
-}
-
 a {
   text-decoration: none;
 }
 
 /* make images easier to work with */
 img {
-  margin: 0;
   max-width: 100%;
   display: block;
 }
