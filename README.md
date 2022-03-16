@@ -81,4 +81,4 @@ Users should be able to:
 
 - Website - [Nick Barker](https://github.com/rocketdog89)
 - Frontend Mentor - [@Rocketdog89](https://www.frontendmentor.io/profile/Rocketdog89)
-- Twitter - [@yourusername](https://www.twitter.com/nickthedevguy)
+- Twitter - [@nickthedevguy](https://www.twitter.com/nickthedevguy)
