@@ -33,8 +33,8 @@ Users should be able to:
 
 
 ### Links
-- Solution URL: [Link] (https://www.github.com/rocketdog89/nft-card-component)
-- Live Site URL: [Link] (https://rocketdog89.github.io/nft-card-component)
+- Solution URL: https://www.github.com/rocketdog89/nft-card-component
+- Live Site URL: https://rocketdog89.github.io/nft-card-component
 
 ## My process
 - Read project README
