@@ -33,7 +33,7 @@ Users should be able to:
 
 
 ### Links
-- Solution URL: https://www.github.com/rocketdog89/nft-card-component
+- Solution URL: https://www.frontendmentor.io/solutions/nft-card-component-css3-html5-ajjMIcJ8H
 - Live Site URL: https://rocketdog89.github.io/nft-card-component
 
 ## My process
