@@ -18,7 +18,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 
 ## Overview
-This is a static NFT card component built to be reuseable multiple times on one page, or across multiple pages (if a developer chooses to insert dynamic content).
+This is an NFT card component built to be reuseable multiple times on a single page, should a developer choose to inject dynamic content.
 
 
 ### The challenge
@@ -33,11 +33,11 @@ Users should be able to:
 
 
 ### Links
-- Solution URL: [Add solution URL here](https://www.github.com/rocketdog89/nft-card-component)
-- Live Site URL: [Add live site URL here](https://rocketdog89.github.io/nft-card-component)
+- Solution URL: [click here](https://www.github.com/rocketdog89/nft-card-component)
+- Live Site URL: (https://rocketdog89.github.io/nft-card-component)
 
 ## My process
-- Read project README provided by Frontend Mentor
+- Read project README
 - Download project starter files
 - Initialize an empty local repo, create a remote repo, and make an initial commit/push
 - Make frequent, short, highly-descriptive commit messages
