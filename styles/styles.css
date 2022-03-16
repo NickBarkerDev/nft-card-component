@@ -70,6 +70,7 @@ body {
   background-color: var(--cyan);
   opacity: 0;
   border-radius: 8px;
+  transition-duration: 500ms;
 }
 
 #img-wrapper::after {
@@ -112,6 +113,7 @@ body {
 
 .txt-content h1:hover {
   color: var(--cyan);
+  transition-duration: 500ms;
   cursor: pointer;
 }
 
@@ -150,13 +152,14 @@ body {
   align-items: center;
 }
 
-.creator-info span {
+#creator-name {
   color: var(--pure-white);
   font-weight: 400;
 }
 
-.creator-info span:hover {
+#creator-name:hover {
   color: var(--cyan);
+  transition-duration: 500ms;
   cursor: pointer;
 }
 
