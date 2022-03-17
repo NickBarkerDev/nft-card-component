@@ -10,7 +10,6 @@ p,
 img {
   margin: 0;
   padding: 0;
-  object-fit: contain;
 }
 
 /* set up default body styles */
@@ -28,6 +27,7 @@ a {
 img {
   max-width: 100%;
   display: block;
+  object-fit: contain;
 }
 
 /* -------------- END RESET ----------------- */
@@ -151,6 +151,7 @@ body {
 .creator-info {
   margin-top: 1rem;
   align-items: center;
+  justify-content: flex-start;
 }
 
 .creator-info img {
